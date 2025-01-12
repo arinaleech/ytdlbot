@@ -33,7 +33,7 @@ For YouTube and any websites supported by yt-dlp, just send the link and we will
 
     """
 
-    about = "YouTube Downloader by @BennyThink.\n\nOpen source on GitHub: https://github.com/tgbot-collection/ytdlbot"
+    about = "YouTube Downloader by @Bimbo69"
 
     buy = f"""
 **Terms:**
