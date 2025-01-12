@@ -24,7 +24,7 @@ ENABLE_VIP = os.getenv("VIP", False)
 OWNER = os.getenv("OWNER", "Bimbo69")
 
 # limitation settings
-AUTHORIZED_USER: str = os.getenv("AUTHORIZED_USER", "5071005351 -1002334928020 ")
+AUTHORIZED_USER: str = os.getenv("AUTHORIZED_USER", "5071005351")
 # membership requires: the format could be username(without @ sign)/chat_id of channel or group.
 # You need to add the bot to this group/channel as admin
 REQUIRED_MEMBERSHIP: str = os.getenv("REQUIRED_MEMBERSHIP", "")
@@ -39,12 +39,12 @@ MYSQL_PASS = os.getenv("MYSQL_PASS", "root")
 
 ARCHIVE_ID = os.getenv("ARCHIVE_ID")
 
-ENABLE_FFMPEG = os.getenv("ENABLE_FFMPEG", True)
+ENABLE_FFMPEG = os.getenv("ENABLE_FFMPEG", False)
 AUDIO_FORMAT = os.getenv("AUDIO_FORMAT")
 
 PLAYLIST_SUPPORT = os.getenv("PLAYLIST_SUPPORT", True)
-M3U8_SUPPORT = os.getenv("M3U8_SUPPORT", True)
-ENABLE_ARIA2 = os.getenv("ENABLE_ARIA2", True)
+M3U8_SUPPORT = os.getenv("M3U8_SUPPORT", False)
+ENABLE_ARIA2 = os.getenv("ENABLE_ARIA2", False)
 
 RCLONE_PATH = os.getenv("RCLONE")
 
