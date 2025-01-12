@@ -23,20 +23,14 @@ from utils import get_func_queue
 
 class BotText:
     start = """
-    Welcome to YouTube Download bot. Type /help for more information. Recommend to use EU Bot
-    EU🇪🇺: @benny_2ytdlbot
-    SG🇸🇬：@benny_ytdlbot
-
-    Join https://t.me/+OGRC8tp9-U9mZDZl for updates."""
+    Welcome to YouTube Download bot. Type /help for more information.
+    
+    Join https://t.me/+LgMYKQLJvhxhNDI9 for updates."""
 
     help = """
-1. For YouTube and any websites supported by yt-dlp, just send the link and we will download and send it to you.
+For YouTube and any websites supported by yt-dlp, just send the link and we will download and send it to you.
 
-2. For specific links use `/spdl {URL}`. More info at https://github.com/SanujaNS/ytdlbot-telegram#supported-websites 
 
-3. If the bot doesn't work, try again or join https://t.me/+OGRC8tp9-U9mZDZl for updates.
-
-4. Wanna deploy it yourself?\nHere's the source code: https://github.com/tgbot-collection/ytdlbot
     """
 
     about = "YouTube Downloader by @BennyThink.\n\nOpen source on GitHub: https://github.com/tgbot-collection/ytdlbot"
@@ -47,7 +41,7 @@ class BotText:
 
 2. You can buy additional download tokens, valid permanently.
 
-3. Refunds are possible, contact me if you need that @BennyThink
+3. Refunds are possible, contact me if you need that 
 
 4. Download for paid user will be automatically changed to Local mode to avoid queuing.
 
