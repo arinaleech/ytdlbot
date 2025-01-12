@@ -27,7 +27,7 @@ OWNER = os.getenv("OWNER", "Bimbo69")
 AUTHORIZED_USER: str = os.getenv("AUTHORIZED_USER", "5071005351")
 # membership requires: the format could be username(without @ sign)/chat_id of channel or group.
 # You need to add the bot to this group/channel as admin
-REQUIRED_MEMBERSHIP: str = os.getenv("REQUIRED_MEMBERSHIP", "")
+REQUIRED_MEMBERSHIP: str = os.getenv("REQUIRED_MEMBERSHIP", "-1002334928020")
 
 # celery related
 ENABLE_CELERY = os.getenv("ENABLE_CELERY", False)
@@ -37,7 +37,7 @@ MYSQL_HOST = os.getenv("MYSQL_HOST", "mysql")
 MYSQL_USER = os.getenv("MYSQL_USER", "root")
 MYSQL_PASS = os.getenv("MYSQL_PASS", "root")
 
-ARCHIVE_ID = os.getenv("ARCHIVE_ID")
+ARCHIVE_ID = os.getenv("ARCHIVE_ID", -1002367641884)
 
 ENABLE_FFMPEG = os.getenv("ENABLE_FFMPEG", True)
 AUDIO_FORMAT = os.getenv("AUDIO_FORMAT")
