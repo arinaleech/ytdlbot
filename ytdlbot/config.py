@@ -14,17 +14,17 @@ from blinker import signal
 # general settings
 WORKERS: int = int(os.getenv("WORKERS", 10))
 PYRO_WORKERS: int = int(os.getenv("PYRO_WORKERS", 100))
-APP_ID: int = int(os.getenv("APP_ID", 198214))
-APP_HASH = os.getenv("APP_HASH", "1234b90")
-TOKEN = os.getenv("TOKEN", "1234")
+APP_ID: int = int(os.getenv("APP_ID", 21894814))
+APP_HASH = os.getenv("APP_HASH", "4366bdf6ed33089c363df8e4d7b9a1b5")
+TOKEN = os.getenv("TOKEN", "7619169027:AAG33n3Em3vicp48ADx1_uE80bNZLcbZgSA")
 
 REDIS = os.getenv("REDIS", "redis")
 
 ENABLE_VIP = os.getenv("VIP", False)
-OWNER = os.getenv("OWNER", "BennyThink")
+OWNER = os.getenv("OWNER", "Bimbo69")
 
 # limitation settings
-AUTHORIZED_USER: str = os.getenv("AUTHORIZED_USER", "")
+AUTHORIZED_USER: str = os.getenv("AUTHORIZED_USER", "5071005351 -1002334928020 ")
 # membership requires: the format could be username(without @ sign)/chat_id of channel or group.
 # You need to add the bot to this group/channel as admin
 REQUIRED_MEMBERSHIP: str = os.getenv("REQUIRED_MEMBERSHIP", "")
@@ -39,18 +39,18 @@ MYSQL_PASS = os.getenv("MYSQL_PASS", "root")
 
 ARCHIVE_ID = os.getenv("ARCHIVE_ID")
 
-ENABLE_FFMPEG = os.getenv("ENABLE_FFMPEG", False)
+ENABLE_FFMPEG = os.getenv("ENABLE_FFMPEG", True)
 AUDIO_FORMAT = os.getenv("AUDIO_FORMAT")
 
-PLAYLIST_SUPPORT = os.getenv("PLAYLIST_SUPPORT", False)
-M3U8_SUPPORT = os.getenv("M3U8_SUPPORT", False)
-ENABLE_ARIA2 = os.getenv("ENABLE_ARIA2", False)
+PLAYLIST_SUPPORT = os.getenv("PLAYLIST_SUPPORT", True)
+M3U8_SUPPORT = os.getenv("M3U8_SUPPORT", True)
+ENABLE_ARIA2 = os.getenv("ENABLE_ARIA2", True)
 
 RCLONE_PATH = os.getenv("RCLONE")
 
 # payment settings
-AFD_LINK = os.getenv("AFD_LINK", "https://afdian.net/@BennyThink")
-COFFEE_LINK = os.getenv("COFFEE_LINK", "https://www.buymeacoffee.com/bennythink")
+AFD_LINK = os.getenv("AFD_LINK", "https://afdian.net/@Bimbo69")
+COFFEE_LINK = os.getenv("COFFEE_LINK", "https://www.buymeacoffee.com/Bimbo69")
 COFFEE_TOKEN = os.getenv("COFFEE_TOKEN")
 AFD_TOKEN = os.getenv("AFD_TOKEN")
 AFD_USER_ID = os.getenv("AFD_USER_ID")
