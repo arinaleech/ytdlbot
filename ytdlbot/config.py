@@ -18,7 +18,7 @@ APP_ID: int = int(os.getenv("APP_ID", 21894814))
 APP_HASH = os.getenv("APP_HASH", "4366bdf6ed33089c363df8e4d7b9a1b5")
 TOKEN = os.getenv("TOKEN", "7619169027:AAG33n3Em3vicp48ADx1_uE80bNZLcbZgSA")
 
-REDIS = os.getenv("REDIS", "redis")
+REDIS = os.getenv("REDIS", False)
 
 ENABLE_VIP = os.getenv("VIP", False)
 OWNER = os.getenv("OWNER", "Bimbo69")
@@ -33,9 +33,9 @@ REQUIRED_MEMBERSHIP: str = os.getenv("REQUIRED_MEMBERSHIP", "-1002334928020")
 ENABLE_CELERY = os.getenv("ENABLE_CELERY", True)
 BROKER = os.getenv("BROKER", f"redis://{REDIS}:6379/1")
 
-MYSQL_HOST = os.getenv("MYSQL_HOST", "mysql")
-MYSQL_USER = os.getenv("MYSQL_USER", "root")
-MYSQL_PASS = os.getenv("MYSQL_PASS", "root")
+MYSQL_HOST = os.getenv("MYSQL_HOST", False)
+MYSQL_USER = os.getenv("MYSQL_USER", False)
+MYSQL_PASS = os.getenv("MYSQL_PASS", False)
 
 ARCHIVE_ID = os.getenv("ARCHIVE_ID", -1002367641884)
 
