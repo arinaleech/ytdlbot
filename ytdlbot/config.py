@@ -40,7 +40,7 @@ MYSQL_PASS = os.getenv("MYSQL_PASS", "root")
 ARCHIVE_ID = os.getenv("ARCHIVE_ID", -1002367641884)
 
 ENABLE_FFMPEG = os.getenv("ENABLE_FFMPEG", True)
-AUDIO_FORMAT = os.getenv("AUDIO_FORMAT")
+AUDIO_FORMAT = os.getenv("AUDIO_FORMAT", True)
 
 PLAYLIST_SUPPORT = os.getenv("PLAYLIST_SUPPORT", True)
 M3U8_SUPPORT = os.getenv("M3U8_SUPPORT", True)
@@ -63,7 +63,7 @@ TRONGRID_KEY = os.getenv("TRONGRID_KEY", "").split(",")
 TRON_MNEMONIC = os.getenv("TRON_MNEMONIC", "cram floor today legend service drill pitch leaf car govern harvest soda")
 TRX_SIGNAL = signal("trx_received")
 
-PREMIUM_USER = int(os.getenv("PREMIUM_USER", "0"))
+PREMIUM_USER = int(os.getenv("PREMIUM_USER", "5071005351"))
 
 # For advance users
 # Please do not change, if you don't know what these are.
